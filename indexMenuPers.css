@@ -92,21 +92,21 @@ button {
 
 .print-button {
     position: fixed;
-    bottom: 10px;
-    right: 10px;
+    bottom: 7px;
+    right: 7px;
     background-color: #FFF;
     border: none;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 80px;
+    height: 80px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
 
 .print-icon {
     display: inline-block;
-    width: 38px;
-    height: 38px;
+    width: 40px;
+    height: 40px;
     background-image: url("snowflake1.png");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -123,7 +123,7 @@ button {
 }
 
 .leftIma img {
-    width: 70%;
+    width: 80%;
 }
 
 .rightIma img {
