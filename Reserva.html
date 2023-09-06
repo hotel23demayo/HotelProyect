@@ -29,16 +29,24 @@
             text-align: center;
         }
 
-        .logo {
+        .logo-container {
             display: flex;
+            align-items: center;
             justify-content: center;
-            margin: 35px;
+            margin-top: 75px;
         }
 
-        .logo img {
+        .logo {
             width: 70px;
             height: 70px;
             cursor: pointer;
+            transition: transform 0.2s ease; /* Agregamos la transición para el cambio de aspecto */
+        }
+
+        /* Agregamos los estilos para el efecto de subrayado al hacer hover */
+        .logo-container:hover .logo {
+            transform: scale(1.1); /* Escalamos la imagen al hacer hover */
+            border-bottom: 4px solid #4CAF50; /* Agregamos el borde inferior color verde al hacer hover */
         }
 
         #resultContainer {
@@ -59,9 +67,11 @@
 </head>
 
 <body>
-    <div class="logo">
-        <img src="reservaCalendar.png" alt="Reserva Logo" onclick="handleFileSelect()">
+
+    <div class="logo-container">
+        <img class="logo" src="reservaCalendar.png" title="Click para seleccionar Archivo" alt="Calendar Logo" onclick="handleFileSelect()">
     </div>
+
     <h1>Reservas que Ingresan Hoy</h1>
     <div id="resultContainer">
         <h2>Listado de Reservas</h2>
@@ -197,5 +207,4 @@
 </body>
 
 </html>
-
 

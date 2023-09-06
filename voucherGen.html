@@ -2,7 +2,7 @@
 <html>
 <head>
     <!-- Sección de encabezado -->
-    <title>Reservas que ingresan</title>
+    <title>Vouchers con Map</title>
     <link rel="icon" type="image/png" href="reservaPencil.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <meta charset="UTF-8">
@@ -22,16 +22,43 @@
             text-align: center;
         }
 
-        .logo-initial {
-            display: flex;
+        .logoCaja img {
+            align-items: center;
             justify-content: center;
-            margin: 35px;
+            width: 120px;
+            margin-top: 75px;
+            cursor: pointer;
+            transition: all 0.3s ease;
         }
 
-        /* Estilos para el logo inicial */
-        .logo-initial img {
-            width: 120px;
+        /* Estilos para el contenedor del logo con el efecto de subrayado */
+        .logoCaja {
+            text-align: center; /* Centrar el contenido horizontalmente */
             cursor: pointer;
+            margin-top: 75px;
+            position: relative;
+            /* Agregar un espacio para el borde inferior subrayado */
+            padding-bottom: 5px;
+            /* Ajustar el ancho del contenedor para que coincida con el de la imagen */
+            width: 120px;
+            margin: 0 auto; /* Centrar el contenedor horizontalmente */
+        }
+
+        /* Estilos para el borde inferior subrayado */
+        .logoCaja::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background-color: transparent;
+            bottom: 0;
+            left: 0;
+            transition: background-color 0.2s ease;
+        }
+
+        /* Efecto de subrayado al hacer hover en el contenedor */
+        .logoCaja:hover::before {
+            background-color: #4CAF50;
         }
         
         .button-print {
@@ -203,9 +230,10 @@
 <body>
     <!-- Contenedor del encabezado -->
     <div class="header-container">
-        <!-- Logo clickeable -->
-        <div class="logo-initial">
-            <img src="voucherMap.png" alt="Reserva Logo" onclick="handleFileSelect()">
+        <!-- Logo clickeable con el efecto de subrayado -->
+        
+        <div class="logoCaja" onclick="handleFileSelect()">
+            <img src="voucherMap.png" title="Click para seleccionar Archivo" alt="Reserva Logo" style="width: 120px;">
         </div>
         <h1 class="h1-initial">Vouchers de Media Pension</h1>
         <h2 class="h2-initial">Listado de Reservas con Map</h2>

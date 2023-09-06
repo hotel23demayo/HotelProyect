@@ -1,10 +1,10 @@
 const almuerzoMenu = [
-            "Empanadas Criollas", "Ensalada Capresse", "Ensalada Lucho’s Cheff", "Tortillin de Papa", "Papas Cheddar", "Tortilla Española", "Papines Rellenos", "Ensalada Griega",
-             "Bruschetta Mediterránea", "Ensalada Caesar", "Bastones de Muzzarella Rebozados", "Quesadillas con Pico de Gallo", "Quiché de Calabaza y Muzzarella", "Tacos de Pollo",
+            "Empanada Cortada a Cuchillo", "Ensalada Capresse", "Ensalada Lucho’s Cheff", "Tortillin de Papa", "Papas Cheddar", "Tortilla Española", "Papines Rellenos", "Ensalada Griega",
+             "Bruschetta Mediterránea", "Ensalada Caesar", "Bastones de Muzzarella Rebozados", "Quesadillas con Pico de Gallo", "Quiché de Calabaza y Muzzarella", "Tacos de Pollo", "Quiché de Verduras", "Crocante de Muzzarella",
               "Muzzarellitas", "Empanadas Capresse", "Fatay", "Mayonesa de Ave", "Croquetas de Espinaca y Queso Azul", "Jamón con Ensalada Rusa", "Tarta de Jamón y Queso", "Quesadillas", "Tartín de Verduras", "Mil Hojas de Papa y Panceta"
               
         ];
-        almuerzoMenu.push("Crunch de Pollo con Ali - Oli");
+        almuerzoMenu.push("Crunch de Pollo");
         
         const almuerzoSubMenu = [
             " y Puerro", "con Ensaladilla", "con Panceta y Verdeo", " y Panceta", "con Ensalada Verde", "con Salsa Alexander", "con Ensaladilla Verde", " con Queso y Panceta", " con Pollo"
@@ -33,11 +33,11 @@ const almuerzoMenu = [
         const cenaMenu = [
             "Muslo Braseado al Limón", "Muslitos a la Portuguesa", "Milanesa de Ternera a la Napolitana", "Ravioli de Espinaca Mediterráneo", "Lasagna de Berenjenas", , "Bondiola Ahumada",
             "Supremitas", "Pechugas al Verdeo", "Tallarines Mediterráneo", "Tallarines a la Parisienne","Tallarines con Salsa Alfredo",
-            "Ñoquis a la Parisienne", "Ñoquis de Papa",
-            "Ravioli de Verdura", "Tallarines al Pesto","Raviolon de Ricota y Verduras",
+            "Ñoquis a la Parisienne", "Ñoquis de Papa", "Pizza Libre",
+            "Ravioles de Verdura y Ricota", "Tallarines al Pesto","Raviolon de Ricota y Verduras",
             "Muslo al Ajillo", "Lasagna de Carne y Verduras", "Suprema Mariland", "Carré de Cerdo a la Riojana" , "Pastel de Papa y Carne",
              "Vacío al Horno", "Pechugas al Puerro y Queso Azul", "Escalopines de Ternera", "Tallarines al Pesto de Albahaca", "Bondiola Grillada",
-              "Canelones de Verdura y Salsa Bechamel", "Pechugas Rellenas", "Caneloni a la Rossini", "Carne Braseada", "Pechugas Capresse",
+              "Canelones de Verdura y Salsa Bechamel", "Pechugas Rellenas", "Caneloni a la Rossini", "Carne al Horno Braseada", "Pechugas Capresse",
               "Wok de Verduras Mixto",
         ];
         cenaMenu.push("Tapa de Asado Braseada");
@@ -45,7 +45,7 @@ const almuerzoMenu = [
         const cenaSubMenu = [
             "con Ensalada del Chef", "con Puré de Batatas", "con Puré de Papas", "con Puré Marmolado", "con Arroz Pilaf", "a la Suiza", "con Queso Gratinado", "con Papas Especiadas", "con Vegetales al Horno",
              "con Panceta y Verdeo", "con Papas a la Provenzal", "con Ensaladilla", "con Ensalada", "con Papas al Natural", "con Salsa Pomodoro",
-             "(Champignon, Crema y Blanco de Ave)", "con Puré Mixto", "con Estofado", "con Filetto y Crema", "con Papas Rústicas", "con Papas a la Española","con Arroz Tae", "con Papas Fritas","con Ragú de Ternera", "con Salsa Bolognesa",
+             "(Champignon, Crema y Blanco de Ave)", "con Puré Mixto", "con Estofado", "con Filetto y Crema", "con Papas Rústicas", "con Papas a la Española","con Arroz Tae", "con Papas Fritas","con Ragú de Ternera", "con Salsa Bolognesa", "en Salsa Rosa",
              "con Papas Bravas y Criolla", "con Tomates Asados", "con Salsa de Puerros", "con Risotto de Verduras", "con Papas a la Crema de Verdeo",
         ];
         
@@ -59,7 +59,7 @@ const almuerzoMenu = [
         postreMenu.push("Crumble de Manzana");
         
         const postreSubMenu = [
-            "con Dulce de Leche", "con Praline de Frutos Secos", "con Nueces Tostadas", "con Salsa de Chocolate", "con Helado y Nueces Garrapiñadas", "y Nueces",
+            "con Dulce de Leche", "con Praline de Frutos Secos", "con Nueces Tostadas", "con Salsa de Chocolate", "con Helado y Nueces Garrapiñadas", "y Nueces", "con Reducción de Vino y Frutos Rojos",
             "con Crema Chantilly", "con Salsa de Frutos Rojos", "de Chocolate", "Mixto", "con Helado", "y Crema de Limón", "con Crema y Canela",
              "y Crema de Caramelo","(Queso, Batata y Membrillo)", "y Crema de Arándanos"
         ];
